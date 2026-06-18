@@ -33,7 +33,7 @@
     )}
     {...restProps}
   >
-    {@render children?.()}
+    {@render children()}
     {#if showCloseButton}
       <DialogPrimitive.Close data-slot="dialog-close">
         {#snippet child({ props })}
